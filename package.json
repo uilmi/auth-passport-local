@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ulul Ilmi",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-flash": "^0.0.2",
